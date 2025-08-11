@@ -42,7 +42,11 @@ for item in items:
     track = item.get("track")
     if not track:
         continue
-    track_url = track["external_urls"]["spotify"]
+    external_urls = track.get("external_urls", {})
+    track_url = external_urls.get("spotify")
+    if not track_url:
+        # Skip tracks without a Spotify URL (e.g., local files)
+        continue
     title = track["name"]
     artist = ", ".join([a["name"] for a in track.get("artists", [])])
     tracks.append({"title": title, "artist": artist, "url": track_url})
