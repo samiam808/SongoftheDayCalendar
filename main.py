@@ -24,7 +24,7 @@ auth_mgr = SpotifyClientCredentials(
     client_id=SPOTIFY_CLIENT_ID,
     client_secret=SPOTIFY_CLIENT_SECRET
 )
-sp = spotipy.Spotify(auth_manager=auth_mgr)
+sp = spotipy.Spotify(auth_manager=auth_mgr, requests_timeout=15)
 
 def get_all_playlist_tracks(sp, playlist_id):
     results = sp.playlist_tracks(playlist_id)
