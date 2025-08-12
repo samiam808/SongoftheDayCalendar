@@ -7338,4 +7338,14 @@ DESCRIPTION:Gracie Abrams — https://open.spotify.com/track/0gZGUAO42F1Hm
  zZWHNPGAu
 URL:https://open.spotify.com/track/0gZGUAO42F1HmzZWHNPGAu
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Missing - Missing
+DTSTART;VALUE=DATE:20240807
+DTEND;VALUE=DATE:20240808
+DTSTAMP:20250812T013625Z
+UID:5da644d4-b262-4a2a-9d77-000c8e0e7fb5@songofday
+DESCRIPTION:Frank Ocean — Spotify link missing\nYouTube: https://www.you
+ tube.com/watch?v=a2VRjNmYyts
+URL:
+END:VEVENT
 END:VCALENDAR
