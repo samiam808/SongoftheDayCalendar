@@ -11,7 +11,7 @@ from icalendar import Calendar, Event
 
 # CONFIG
 PLAYLIST_ID = "77Dvuh1ffwAUINmjRmPfMd"  # your playlist id
-START_DATE = date(2024, 8, 7)           # starting date
+START_DATE = date(2022, 8, 6)           # starting date
 OUTPATH = "docs/song_of_the_day.ics"
 CAL_NAME = "Song of the Day"
 
