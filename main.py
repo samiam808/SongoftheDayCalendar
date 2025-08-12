@@ -129,11 +129,11 @@ for t in tracks:
     else:
         description = f"{t['artist']} — Spotify link missing"
 
-    ev.add("description", description)
-
-    # YouTube link only in the URL field
+    # YouTube link (for URL field only)
     youtube_url = get_youtube_video_link(t['title'], t['artist'], YOUTUBE_API_KEY)
     ev.add("url", youtube_url)
+
+    ev.add("description", description)
 
     cal.add_component(ev)
     existing_dates.add(d)
