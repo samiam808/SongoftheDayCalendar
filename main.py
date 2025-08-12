@@ -42,11 +42,15 @@ for item in items:
     track = item.get("track")
     if not track:
         continue
+    title = track.get("name", "Unknown Title")
+    artist = ", ".join([a.get("name", "Unknown Artist") for a in track.get("artists", [])])
     external_urls = track.get("external_urls", {})
-    track_url = external_urls.get("spotify")  # May be None
-    title = track["name"]
-    artist = ", ".join([a["name"] for a in track.get("artists", [])])
-    tracks.append({"title": title, "artist": artist, "url": track_url})
+    track_url = external_urls.get("spotify")  # Could be None
+    tracks.append({
+        "title": title,
+        "artist": artist,
+        "url": track_url
+    })
 
 # Load existing calendar (if any)
 if os.path.exists(OUTPATH):
@@ -71,31 +75,37 @@ for comp in cal.walk():
             dt = dt.date()
         existing_dates.add(dt)
 
-# Add any new tracks to next open day
+# Add any new tracks or "Missing" events to next open day
 d = START_DATE
 added = 0
 for t in tracks:
-    # Skip only if URL exists and already scheduled
+    # If track already scheduled (by URL), skip
     if t["url"] and t["url"] in existing_urls:
-        continue  # already scheduled
-    # find next free date (skip any date already in calendar)
+        continue
+    # Find next free date (skip any date already in calendar)
     while d in existing_dates:
         d += timedelta(days=1)
+
     ev = Event()
     ev.add("uid", f"{uuid.uuid4()}@songofday")
     ev.add("dtstamp", datetime.utcnow())
     ev.add("dtstart", d)
     ev.add("dtend", d + timedelta(days=1))
-    ev.add("summary", f"Song - {t['title']}")
-    # Add description and url only if present
+
     if t["url"]:
+        # Normal event with song and artist + url
+        ev.add("summary", f"{t['title']} - {t['artist']}")
         ev.add("description", f"{t['artist']} — {t['url']}")
         ev.add("url", t["url"])
-        existing_urls.add(t["url"])  # track URL to avoid duplicates
     else:
-        ev.add("description", f"{t['artist']}")
+        # Missing Spotify link - summary "Missing"
+        ev.add("summary", "Missing")
+        ev.add("description", f"{t['title']} - {t['artist']} (No Spotify link)")
+
     cal.add_component(ev)
     existing_dates.add(d)
+    if t["url"]:
+        existing_urls.add(t["url"])
     d += timedelta(days=1)
     added += 1
 
