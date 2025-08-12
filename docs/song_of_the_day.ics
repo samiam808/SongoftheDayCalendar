@@ -7765,4 +7765,34 @@ DESCRIPTION:Grebes — Spotify: https://open.spotify.com/track/0ciAqX5o38R
  YQSuln7uy3i
 URL:https://www.youtube.com/results?search_query=wyd+Grebes
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:birds\, bees - Fousheé
+DTSTART;VALUE=DATE:20240810
+DTEND;VALUE=DATE:20240811
+DTSTAMP:20250812T125704Z
+UID:526dcbbd-bcbb-41ac-9b41-0cc6a5b64333@songofday
+DESCRIPTION:Fousheé — Spotify: https://open.spotify.com/track/7fIHFXaxa
+ FZ9TLxdZeYIRD
+URL:https://www.youtube.com/watch?v=evMgdFruaSw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lucky - Choker
+DTSTART;VALUE=DATE:20240811
+DTEND;VALUE=DATE:20240812
+DTSTAMP:20250812T125704Z
+UID:e7db5429-277c-4088-a4f9-44ebb20f8ff1@songofday
+DESCRIPTION:Choker — Spotify: https://open.spotify.com/track/0mYslGmbnkb
+ xuyr0ISIYtB
+URL:https://www.youtube.com/watch?v=jS2nxAyV9eE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sailor Song - Gigi Perez
+DTSTART;VALUE=DATE:20240812
+DTEND;VALUE=DATE:20240813
+DTSTAMP:20250812T125705Z
+UID:47f1d643-73e7-49f4-9c23-fbfbe6385f38@songofday
+DESCRIPTION:Gigi Perez — Spotify: https://open.spotify.com/track/0UYnhUf
+ nUj5adChuAXvLUB
+URL:https://www.youtube.com/watch?v=KZGWfHdfWQs
+END:VEVENT
 END:VCALENDAR
