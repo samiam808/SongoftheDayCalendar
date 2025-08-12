@@ -43,10 +43,7 @@ for item in items:
     if not track:
         continue
     external_urls = track.get("external_urls", {})
-    track_url = external_urls.get("spotify")
-    if not track_url:
-        # Skip tracks without a Spotify URL (e.g., local files)
-        continue
+    track_url = external_urls.get("spotify")  # May be None
     title = track["name"]
     artist = ", ".join([a["name"] for a in track.get("artists", [])])
     tracks.append({"title": title, "artist": artist, "url": track_url})
@@ -78,7 +75,8 @@ for comp in cal.walk():
 d = START_DATE
 added = 0
 for t in tracks:
-    if t["url"] in existing_urls:
+    # Skip only if URL exists and already scheduled
+    if t["url"] and t["url"] in existing_urls:
         continue  # already scheduled
     # find next free date (skip any date already in calendar)
     while d in existing_dates:
@@ -88,13 +86,16 @@ for t in tracks:
     ev.add("dtstamp", datetime.utcnow())
     ev.add("dtstart", d)
     ev.add("dtend", d + timedelta(days=1))
-    # User asked for "Song - Title" format; adjust here if you want "Artist - Title"
     ev.add("summary", f"Song - {t['title']}")
-    ev.add("description", f"{t['artist']} — {t['url']}")
-    ev.add("url", t["url"])
+    # Add description and url only if present
+    if t["url"]:
+        ev.add("description", f"{t['artist']} — {t['url']}")
+        ev.add("url", t["url"])
+        existing_urls.add(t["url"])  # track URL to avoid duplicates
+    else:
+        ev.add("description", f"{t['artist']}")
     cal.add_component(ev)
     existing_dates.add(d)
-    existing_urls.add(t["url"])
     d += timedelta(days=1)
     added += 1
 
