@@ -7742,4 +7742,17 @@ DESCRIPTION:Frank Ocean — Spotify: https://open.spotify.com/track/0msrDP
  XxZpts4FRnoX0bFr
 URL:https://www.youtube.com/results?search_query=Monks+Frank+Ocean
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Doggy (feat. Love Spells and Truly Young) - Geezer\, Kevin Abstrac
+ t\, Dominic Fike\, Love Spells\, Truly Young
+DTSTART;VALUE=DATE:20240808
+DTEND;VALUE=DATE:20240809
+DTSTAMP:20250812T042353Z
+UID:ec279741-e4e7-440d-b71d-52b320bde511@songofday
+DESCRIPTION:Geezer\, Kevin Abstract\, Dominic Fike\, Love Spells\, Truly Y
+ oung — Spotify: https://open.spotify.com/track/5Vu1MTtsQFUO03YpHyfcuU
+URL:https://www.youtube.com/results?search_query=Doggy+(feat.+Love+Spells+
+ and+Truly+Young)+Geezer,+Kevin+Abstract,+Dominic+Fike,+Love+Spells,+Truly+
+ Young
+END:VEVENT
 END:VCALENDAR
