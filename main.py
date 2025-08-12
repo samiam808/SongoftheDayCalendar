@@ -3,6 +3,7 @@
 import os
 from datetime import date, datetime, timedelta
 import uuid
+import hashlib
 import requests
 
 import spotipy
@@ -63,6 +64,13 @@ def get_youtube_video_link(title, artist, api_key):
     # Fallback: YouTube search results page
     return f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}"
 
+def get_unique_id(t):
+    if t["url"]:
+        return t["url"]
+    else:
+        id_str = f"{t['title']}|{t['artist']}"
+        return "missing-" + hashlib.md5(id_str.encode('utf-8')).hexdigest()
+
 # Fetch playlist tracks
 items = get_all_playlist_tracks(sp, PLAYLIST_ID)
 
@@ -104,7 +112,7 @@ for comp in cal.walk():
 d = START_DATE
 added = 0
 for t in tracks:
-    unique_id = t["url"] if t["url"] else f"missing-spotify-{uuid.uuid4()}"
+    unique_id = get_unique_id(t)
     if unique_id in existing_urls:
         continue
 
