@@ -1,6 +1,6 @@
 name: Update Song of the Day calendar
 
-# run daily + allow manual runs
+# run daily and allow manual runs
 on:
   schedule:
     - cron: '0 */3 * * *'   # every 3 hours at minute 0
