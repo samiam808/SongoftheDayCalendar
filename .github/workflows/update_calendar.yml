@@ -30,6 +30,7 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python main.py
 
       - name: Commit, pull (with rebase), and push changes
