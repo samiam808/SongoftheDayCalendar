@@ -3,8 +3,9 @@
 import os
 from datetime import date, datetime, timedelta
 import uuid
-import hashlib
 import requests
+import hashlib
+import re
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -64,12 +65,13 @@ def get_youtube_video_link(title, artist, api_key):
     # Fallback: YouTube search results page
     return f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}"
 
-def get_unique_id(t):
-    if t["url"]:
-        return t["url"]
+def get_unique_id(track):
+    """Return a stable unique ID based on Spotify URL or hash of title-artist."""
+    if track["url"]:
+        return track["url"]
     else:
-        id_str = f"{t['title']}|{t['artist']}"
-        return "missing-" + hashlib.md5(id_str.encode('utf-8')).hexdigest()
+        unique_str = f"{track['title']} - {track['artist']}"
+        return "missing-" + hashlib.md5(unique_str.encode('utf-8')).hexdigest()
 
 # Fetch playlist tracks
 items = get_all_playlist_tracks(sp, PLAYLIST_ID)
@@ -95,26 +97,39 @@ else:
     cal.add("version", "2.0")
     cal.add("X-WR-CALNAME", CAL_NAME)
 
-# Track existing URLs/dates to prevent duplicates
-existing_urls = set()
+# Track existing unique IDs and dates to prevent duplicates
+existing_ids = set()
 existing_dates = set()
 for comp in cal.walk():
     if comp.name == "VEVENT":
-        url = comp.get("url")
-        if url:
-            existing_urls.add(str(url))
         dt = comp.get("dtstart").dt
         if isinstance(dt, datetime):
             dt = dt.date()
         existing_dates.add(dt)
+
+        description = comp.get("description")
+        summary = comp.get("summary")
+
+        spotify_url = None
+        if description:
+            desc_str = str(description)
+            m = re.search(r"Spotify: (https?://[^\s]+)", desc_str)
+            if m:
+                spotify_url = m.group(1)
+
+        if spotify_url:
+            existing_ids.add(spotify_url)
+        elif summary:
+            unique_str = str(summary)
+            existing_ids.add("missing-" + hashlib.md5(unique_str.encode('utf-8')).hexdigest())
 
 # Add new tracks to calendar
 d = START_DATE
 added = 0
 for t in tracks:
     unique_id = get_unique_id(t)
-    if unique_id in existing_urls:
-        continue
+    if unique_id in existing_ids:
+        continue  # Skip duplicates
 
     while d in existing_dates:
         d += timedelta(days=1)
@@ -137,15 +152,15 @@ for t in tracks:
     else:
         description = f"{t['artist']} — Spotify link missing"
 
+    ev.add("description", description)
+
     # YouTube link (for URL field only)
     youtube_url = get_youtube_video_link(t['title'], t['artist'], YOUTUBE_API_KEY)
     ev.add("url", youtube_url)
 
-    ev.add("description", description)
-
     cal.add_component(ev)
     existing_dates.add(d)
-    existing_urls.add(unique_id)
+    existing_ids.add(unique_id)
     d += timedelta(days=1)
     added += 1
 
