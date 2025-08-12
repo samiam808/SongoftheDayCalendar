@@ -7755,4 +7755,14 @@ URL:https://www.youtube.com/results?search_query=Doggy+(feat.+Love+Spells+
  and+Truly+Young)+Geezer,+Kevin+Abstract,+Dominic+Fike,+Love+Spells,+Truly+
  Young
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:wyd - Grebes
+DTSTART;VALUE=DATE:20240809
+DTEND;VALUE=DATE:20240810
+DTSTAMP:20250812T042855Z
+UID:7c3de2c9-bcd4-419c-be18-8b9aebcfcc2f@songofday
+DESCRIPTION:Grebes — Spotify: https://open.spotify.com/track/0ciAqX5o38R
+ YQSuln7uy3i
+URL:https://www.youtube.com/results?search_query=wyd+Grebes
+END:VEVENT
 END:VCALENDAR
