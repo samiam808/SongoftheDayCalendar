@@ -89,7 +89,7 @@ for t in tracks:
     ev.add("dtstart", d)
     ev.add("dtend", d + timedelta(days=1))
     # User asked for "Song - Title" format; adjust here if you want "Artist - Title"
-    ev.add("summary", f"{t['artist']} — {t['title']}")
+    ev.add("summary", f"Song - {t['title']}")
     ev.add("description", f"{t['artist']} — {t['url']}")
     ev.add("url", t["url"])
     cal.add_component(ev)
