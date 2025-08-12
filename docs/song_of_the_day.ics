@@ -7795,4 +7795,14 @@ DESCRIPTION:Gigi Perez — Spotify: https://open.spotify.com/track/0UYnhUf
  nUj5adChuAXvLUB
 URL:https://www.youtube.com/watch?v=KZGWfHdfWQs
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Politics & Violence - Dominic Fike
+DTSTART;VALUE=DATE:20240813
+DTEND;VALUE=DATE:20240814
+DTSTAMP:20250812T184018Z
+UID:8f53cab4-e3bb-4cb3-9109-1f4e6766ed5d@songofday
+DESCRIPTION:Dominic Fike — Spotify: https://open.spotify.com/track/4keHa
+ 1UN3c9OWHVv3BE5ra
+URL:https://www.youtube.com/watch?v=LFXPG2ICn5E
+END:VEVENT
 END:VCALENDAR
