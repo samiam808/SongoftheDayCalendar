@@ -7374,4 +7374,15 @@ UID:f01e2aad-bb60-4385-9689-843aa44f9f8d@songofday
 DESCRIPTION:Frank Ocean — Spotify link missing
 URL:
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:songs for women - Frank Ocean
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+DTSTAMP:20250812T023510Z
+UID:b82e0171-83ee-4e78-9f36-520a9bf725a2@songofday
+DESCRIPTION:Frank Ocean — Spotify link missing\nYouTube: https://www.you
+ tube.com/results?search_query=songs+for+women+Frank+Ocean
+URL:https://www.youtube.com/results?search_query=songs+for+women+Frank+Oce
+ an
+END:VEVENT
 END:VCALENDAR
