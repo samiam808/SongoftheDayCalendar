@@ -7805,4 +7805,14 @@ DESCRIPTION:Dominic Fike — Spotify: https://open.spotify.com/track/4keHa
  1UN3c9OWHVv3BE5ra
 URL:https://www.youtube.com/watch?v=LFXPG2ICn5E
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crack Rock - Frank Ocean
+DTSTART;VALUE=DATE:20240814
+DTEND;VALUE=DATE:20240815
+DTSTAMP:20250813T035431Z
+UID:c095eefe-7a8d-47a5-b279-17b1e2c6da56@songofday
+DESCRIPTION:Frank Ocean — Spotify: https://open.spotify.com/track/5lcyIe
+ EfwZTs8Ajw3kdF7P
+URL:https://www.youtube.com/watch?v=IVzzw7Vkiyg
+END:VEVENT
 END:VCALENDAR
