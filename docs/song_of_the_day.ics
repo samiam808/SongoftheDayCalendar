@@ -8005,4 +8005,24 @@ DESCRIPTION:Malcolm Todd — Spotify: https://open.spotify.com/track/0yKsZ
  7zzBGlqcMGsYLHPnJ
 URL:https://www.youtube.com/watch?v=YNfdJXbqru4
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sienna - The Marías
+DTSTART;VALUE=DATE:20240903
+DTEND;VALUE=DATE:20240904
+DTSTAMP:20250815T092847Z
+UID:1aff7ffa-f97d-4d14-b070-533c5a8c977c@songofday
+DESCRIPTION:The Marías — Spotify: https://open.spotify.com/track/0InIeZ
+ W4P6VO7dUGRM4AKH
+URL:https://www.youtube.com/watch?v=EiS7cKfuf6w
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Let Me Go - Daniel Caesar
+DTSTART;VALUE=DATE:20240904
+DTEND;VALUE=DATE:20240905
+DTSTAMP:20250815T092848Z
+UID:8f827766-3f17-497f-9793-e650489d92fc@songofday
+DESCRIPTION:Daniel Caesar — Spotify: https://open.spotify.com/track/3ym8
+ ajVmKm6Fybgov3WBI5
+URL:https://www.youtube.com/watch?v=RQCj03BZCSY
+END:VEVENT
 END:VCALENDAR
