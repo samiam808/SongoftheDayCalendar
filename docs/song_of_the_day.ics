@@ -8035,4 +8035,34 @@ DESCRIPTION:Dominic Fike — Spotify: https://open.spotify.com/track/2V1d5
  3nRhAzKos82tt8kJs
 URL:https://www.youtube.com/watch?v=L9L8N607IT0
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aftermath - Edit - Dominic Fike
+DTSTART;VALUE=DATE:20240906
+DTEND;VALUE=DATE:20240907
+DTSTAMP:20250816T125210Z
+UID:6409c416-92a8-4d15-b4c0-093ac1bba172@songofday
+DESCRIPTION:Dominic Fike — Spotify: https://open.spotify.com/track/0gpPi
+ 4vOxqC3yFQFPzf9ef
+URL:https://www.youtube.com/watch?v=bdp4D7d9sRM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Smile - Dominic Fike
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240908
+DTSTAMP:20250816T125210Z
+UID:8e312701-2c89-4f3c-9f77-95e20d390db9@songofday
+DESCRIPTION:Dominic Fike — Spotify: https://open.spotify.com/track/6dtx4
+ FBWXE4dP9XZ22MVVm
+URL:https://www.youtube.com/watch?v=riDXH6s3xmQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Motels - Royel Otis
+DTSTART;VALUE=DATE:20240908
+DTEND;VALUE=DATE:20240909
+DTSTAMP:20250816T125210Z
+UID:7a60ca3d-4f5c-4efb-8bab-7333f73391fa@songofday
+DESCRIPTION:Royel Otis — Spotify: https://open.spotify.com/track/1V888fh
+ 2JLVzMElr1pEz6Z
+URL:https://www.youtube.com/watch?v=XsgwxlgeshI
+END:VEVENT
 END:VCALENDAR
