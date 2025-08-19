@@ -8065,4 +8065,34 @@ DESCRIPTION:Royel Otis — Spotify: https://open.spotify.com/track/1V888fh
  2JLVzMElr1pEz6Z
 URL:https://www.youtube.com/watch?v=XsgwxlgeshI
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OMG - Suki Waterhouse
+DTSTART;VALUE=DATE:20240909
+DTEND;VALUE=DATE:20240910
+DTSTAMP:20250819T183510Z
+UID:188994ad-816d-4350-a856-badf27f77c4e@songofday
+DESCRIPTION:Suki Waterhouse — Spotify: https://open.spotify.com/track/5v
+ YjTN8d0DZ2SosbKSx5Nj
+URL:https://www.youtube.com/watch?v=9Vf7DA-AB08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Witches - Alice Phoebe Lou
+DTSTART;VALUE=DATE:20240910
+DTEND;VALUE=DATE:20240911
+DTSTAMP:20250819T183511Z
+UID:7db296d9-dbe0-4fb7-9a07-87a6b656f64d@songofday
+DESCRIPTION:Alice Phoebe Lou — Spotify: https://open.spotify.com/track/2
+ 7R1A3WZ5Zv0ywNe0Zunfr
+URL:https://www.youtube.com/watch?v=JuklRMZj7CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crush - Ethel Cain
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+DTSTAMP:20250819T183511Z
+UID:69e7658b-9072-46a5-8ad0-9f810913c78a@songofday
+DESCRIPTION:Ethel Cain — Spotify: https://open.spotify.com/track/0nsIevK
+ 1SeDfZzDOi6Si75
+URL:https://www.youtube.com/watch?v=xu-t3tqDyAY
+END:VEVENT
 END:VCALENDAR
