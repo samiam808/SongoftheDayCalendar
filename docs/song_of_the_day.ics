@@ -8095,4 +8095,14 @@ DESCRIPTION:Ethel Cain — Spotify: https://open.spotify.com/track/0nsIevK
  1SeDfZzDOi6Si75
 URL:https://www.youtube.com/watch?v=xu-t3tqDyAY
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soup - Remi Wolf
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240913
+DTSTAMP:20250819T212353Z
+UID:8bcb3519-2c5c-4f61-8c67-a5e95087779b@songofday
+DESCRIPTION:Remi Wolf — Spotify: https://open.spotify.com/track/1Wi1XpdZ
+ zGVIdRTzlTrIEF
+URL:https://www.youtube.com/watch?v=4A7LIv_2Ips
+END:VEVENT
 END:VCALENDAR
