@@ -8115,4 +8115,34 @@ DESCRIPTION:Wet Leg — Spotify: https://open.spotify.com/track/4VBE0mwU8N
  mm8hiqfCe4Ve
 URL:https://www.youtube.com/watch?v=nou4Wn-_uEo
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Husk - Men I Trust
+DTSTART;VALUE=DATE:20240914
+DTEND;VALUE=DATE:20240915
+DTSTAMP:20250820T183732Z
+UID:96c46720-fee9-4c37-b370-30da344f26c9@songofday
+DESCRIPTION:Men I Trust — Spotify: https://open.spotify.com/track/0iMSUf
+ h4oQplV5OrmrlIbm
+URL:https://www.youtube.com/watch?v=OSLlumVfMew
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jocelyn - The Beaches
+DTSTART;VALUE=DATE:20240915
+DTEND;VALUE=DATE:20240916
+DTSTAMP:20250820T183733Z
+UID:6a4b7fa7-d520-4886-87f4-33cd71015bf4@songofday
+DESCRIPTION:The Beaches — Spotify: https://open.spotify.com/track/57dfmo
+ ZHwPWpqe9cTqGuEh
+URL:https://www.youtube.com/watch?v=I-cvl9MK0N0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All In My Head - The Linda Lindas
+DTSTART;VALUE=DATE:20240916
+DTEND;VALUE=DATE:20240917
+DTSTAMP:20250820T183733Z
+UID:7e52e148-ea69-42cd-994d-eaa5b73658b6@songofday
+DESCRIPTION:The Linda Lindas — Spotify: https://open.spotify.com/track/7
+ uHpXA3rYfs1EqFHogCwDj
+URL:https://www.youtube.com/watch?v=qy7XQPOQOvM
+END:VEVENT
 END:VCALENDAR
