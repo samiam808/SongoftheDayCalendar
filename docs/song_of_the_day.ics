@@ -8105,4 +8105,14 @@ DESCRIPTION:Remi Wolf — Spotify: https://open.spotify.com/track/1Wi1XpdZ
  zGVIdRTzlTrIEF
 URL:https://www.youtube.com/watch?v=4A7LIv_2Ips
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Being In Love - Wet Leg
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+DTSTAMP:20250820T034315Z
+UID:9be2589d-2554-485b-8f31-fa5f36eab471@songofday
+DESCRIPTION:Wet Leg — Spotify: https://open.spotify.com/track/4VBE0mwU8N
+ mm8hiqfCe4Ve
+URL:https://www.youtube.com/watch?v=nou4Wn-_uEo
+END:VEVENT
 END:VCALENDAR
