@@ -8145,4 +8145,54 @@ DESCRIPTION:The Linda Lindas — Spotify: https://open.spotify.com/track/7
  uHpXA3rYfs1EqFHogCwDj
 URL:https://www.youtube.com/watch?v=qy7XQPOQOvM
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Over There - The Japanese House
+DTSTART;VALUE=DATE:20240917
+DTEND;VALUE=DATE:20240918
+DTSTAMP:20250822T020237Z
+UID:26ade98f-a149-4759-8ff2-ab6606e71790@songofday
+DESCRIPTION:The Japanese House — Spotify: https://open.spotify.com/track
+ /4dTiPPJc8ZQUBGzExDYNpR
+URL:https://www.youtube.com/watch?v=dDlvR43LbpA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kangaroo - Remi Wolf
+DTSTART;VALUE=DATE:20240918
+DTEND;VALUE=DATE:20240919
+DTSTAMP:20250822T020237Z
+UID:6d159903-378e-4694-b975-264eb05e4103@songofday
+DESCRIPTION:Remi Wolf — Spotify: https://open.spotify.com/track/7IRVlaBd
+ KQ45AjWO7SmMMh
+URL:https://www.youtube.com/watch?v=6Qbme8qEAFQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vampire in the Corner - Magdalena Bay
+DTSTART;VALUE=DATE:20240919
+DTEND;VALUE=DATE:20240920
+DTSTAMP:20250822T020238Z
+UID:5e65dae7-c4e2-47c1-907a-72c467f4a07a@songofday
+DESCRIPTION:Magdalena Bay — Spotify: https://open.spotify.com/track/6O6V
+ DSgm7Cxrk7kIJhyIFo
+URL:https://www.youtube.com/watch?v=q4KYYRzFUzE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:He Loves Me Yeah! - Faye Webster
+DTSTART;VALUE=DATE:20240920
+DTEND;VALUE=DATE:20240921
+DTSTAMP:20250822T020238Z
+UID:28580a84-8abb-4291-a4c5-57dba8a892b1@songofday
+DESCRIPTION:Faye Webster — Spotify: https://open.spotify.com/track/7Ep9I
+ jggTVy070hEkaSLIa
+URL:https://www.youtube.com/watch?v=ebk15gYi8Dg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Dream With a Baseball Player - Faye Webster
+DTSTART;VALUE=DATE:20240921
+DTEND;VALUE=DATE:20240922
+DTSTAMP:20250822T020238Z
+UID:7810fef1-64e1-42b9-95ed-d358a417f607@songofday
+DESCRIPTION:Faye Webster — Spotify: https://open.spotify.com/track/7hNPc
+ yHhNYLCtTFa5bxvX1
+URL:https://www.youtube.com/watch?v=0VVjgdY-Fw8
+END:VEVENT
 END:VCALENDAR
