@@ -8195,4 +8195,14 @@ DESCRIPTION:Faye Webster — Spotify: https://open.spotify.com/track/7hNPc
  yHhNYLCtTFa5bxvX1
 URL:https://www.youtube.com/watch?v=0VVjgdY-Fw8
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Topanga - Trippie Redd
+DTSTART;VALUE=DATE:20240922
+DTEND;VALUE=DATE:20240923
+DTSTAMP:20250822T034305Z
+UID:ac0371a4-22cb-45ac-a0d5-64216ffee5ac@songofday
+DESCRIPTION:Trippie Redd — Spotify: https://open.spotify.com/track/1Am3f
+ wJi1NF1sD2McZfVWi
+URL:https://www.youtube.com/watch?v=qE4Z0KfzpE8
+END:VEVENT
 END:VCALENDAR
