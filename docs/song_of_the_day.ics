@@ -8205,4 +8205,14 @@ DESCRIPTION:Trippie Redd — Spotify: https://open.spotify.com/track/1Am3f
  wJi1NF1sD2McZfVWi
 URL:https://www.youtube.com/watch?v=qE4Z0KfzpE8
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What You Want (feat. Teezo Touchdown) - CORTIS\, Teezo Touchdown
+DTSTART;VALUE=DATE:20240923
+DTEND;VALUE=DATE:20240924
+DTSTAMP:20250822T152606Z
+UID:c8ba8add-d0a1-4c4e-9aca-1e3aa8564162@songofday
+DESCRIPTION:CORTIS\, Teezo Touchdown — Spotify: https://open.spotify.com
+ /track/1pFQRreMptp3dkh64WiUNx
+URL:https://www.youtube.com/watch?v=J8s5-vsT_Dc
+END:VEVENT
 END:VCALENDAR
