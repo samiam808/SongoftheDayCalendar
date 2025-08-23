@@ -8215,4 +8215,14 @@ DESCRIPTION:CORTIS\, Teezo Touchdown — Spotify: https://open.spotify.com
  /track/1pFQRreMptp3dkh64WiUNx
 URL:https://www.youtube.com/watch?v=J8s5-vsT_Dc
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:i hate this tune - Royel Otis
+DTSTART;VALUE=DATE:20240924
+DTEND;VALUE=DATE:20240925
+DTSTAMP:20250823T124923Z
+UID:67d92d38-0428-4e37-a30a-25dd10449611@songofday
+DESCRIPTION:Royel Otis — Spotify: https://open.spotify.com/track/4ui8xOi
+ XNA4CCfQ1z4VcZG
+URL:https://www.youtube.com/watch?v=UfHl9UI1H1k
+END:VEVENT
 END:VCALENDAR
