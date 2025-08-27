@@ -8225,4 +8225,14 @@ DESCRIPTION:Royel Otis — Spotify: https://open.spotify.com/track/4ui8xOi
  XNA4CCfQ1z4VcZG
 URL:https://www.youtube.com/watch?v=UfHl9UI1H1k
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Death & Romance - Magdalena Bay
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+DTSTAMP:20250827T152640Z
+UID:0b8e08d0-43ef-43ec-af1f-faed736ac383@songofday
+DESCRIPTION:Magdalena Bay — Spotify: https://open.spotify.com/track/5m3r
+ VRNkTv5EQnPuF293we
+URL:https://www.youtube.com/watch?v=_8gfVTnbBi8
+END:VEVENT
 END:VCALENDAR
