@@ -8355,4 +8355,14 @@ DESCRIPTION:Sabrina Carpenter — Spotify: https://open.spotify.com/track/
  4tVVmShMF2PYdLqcejrsy2
 URL:https://www.youtube.com/watch?v=uV-w3fyWTuM
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baby - Still Woozy
+DTSTART;VALUE=DATE:20241008
+DTEND;VALUE=DATE:20241009
+DTSTAMP:20250829T183316Z
+UID:298d6627-8a43-4cb9-a813-35b572d09fd0@songofday
+DESCRIPTION:Still Woozy — Spotify: https://open.spotify.com/track/2yvVFL
+ yD8BYgaRf3SiMFmk
+URL:https://www.youtube.com/watch?v=EelrlfjgT1I
+END:VEVENT
 END:VCALENDAR
