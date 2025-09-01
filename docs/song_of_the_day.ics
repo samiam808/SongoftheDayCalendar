@@ -8365,4 +8365,14 @@ DESCRIPTION:Still Woozy — Spotify: https://open.spotify.com/track/2yvVFL
  yD8BYgaRf3SiMFmk
 URL:https://www.youtube.com/watch?v=EelrlfjgT1I
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Real Life - The Marías
+DTSTART;VALUE=DATE:20241009
+DTEND;VALUE=DATE:20241010
+DTSTAMP:20250901T022121Z
+UID:c40f0665-fa62-48aa-b2d7-3175879c87d2@songofday
+DESCRIPTION:The Marías — Spotify: https://open.spotify.com/track/3HVRZx
+ Cp3BWYuYe8L8BMNH
+URL:https://www.youtube.com/watch?v=S51-qzfLdIc
+END:VEVENT
 END:VCALENDAR
