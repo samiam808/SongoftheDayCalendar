@@ -8375,4 +8375,14 @@ DESCRIPTION:The Marías — Spotify: https://open.spotify.com/track/3HVRZx
  Cp3BWYuYe8L8BMNH
 URL:https://www.youtube.com/watch?v=S51-qzfLdIc
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:affection - BETWEEN FRIENDS
+DTSTART;VALUE=DATE:20241010
+DTEND;VALUE=DATE:20241011
+DTSTAMP:20250901T093032Z
+UID:3f35cbaf-e304-4ca3-91f8-fb4256ca340d@songofday
+DESCRIPTION:BETWEEN FRIENDS — Spotify: https://open.spotify.com/track/2l
+ TtnKQgjbrBA1qnOFhBkP
+URL:https://www.youtube.com/watch?v=uJoMqYumxmA
+END:VEVENT
 END:VCALENDAR
