@@ -8405,4 +8405,14 @@ DESCRIPTION:The Marías — Spotify: https://open.spotify.com/track/3SH1vO
  Twgg5Ma1NhHaXvrA
 URL:https://www.youtube.com/watch?v=TZEL7dAojjM
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tough Luck - Laufey
+DTSTART;VALUE=DATE:20241013
+DTEND;VALUE=DATE:20241014
+DTSTAMP:20250903T212154Z
+UID:0114e2ab-6ac3-4c8e-ad5e-552a43eb4291@songofday
+DESCRIPTION:Laufey — Spotify: https://open.spotify.com/track/5PFjKfGf75I
+ 3LkKGiReWp5
+URL:https://www.youtube.com/watch?v=cc96-nAqZus
+END:VEVENT
 END:VCALENDAR
