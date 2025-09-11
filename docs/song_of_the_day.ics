@@ -8415,4 +8415,14 @@ DESCRIPTION:Laufey — Spotify: https://open.spotify.com/track/5PFjKfGf75I
  3LkKGiReWp5
 URL:https://www.youtube.com/watch?v=cc96-nAqZus
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sleepyhead - Passion Pit
+DTSTART;VALUE=DATE:20241014
+DTEND;VALUE=DATE:20241015
+DTSTAMP:20250911T063722Z
+UID:be928cea-4cfd-409d-9482-25d9ecb74676@songofday
+DESCRIPTION:Passion Pit — Spotify: https://open.spotify.com/track/4prEPl
+ 61C8qZpeo3IkYSMl
+URL:https://www.youtube.com/watch?v=T0RvPYRRRbE
+END:VEVENT
 END:VCALENDAR
