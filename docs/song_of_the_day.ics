@@ -8425,4 +8425,14 @@ DESCRIPTION:Passion Pit — Spotify: https://open.spotify.com/track/4prEPl
  61C8qZpeo3IkYSMl
 URL:https://www.youtube.com/watch?v=T0RvPYRRRbE
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Float On - Modest Mouse
+DTSTART;VALUE=DATE:20241015
+DTEND;VALUE=DATE:20241016
+DTSTAMP:20250911T183151Z
+UID:d646aed6-9bbb-4270-8146-431abb45b278@songofday
+DESCRIPTION:Modest Mouse — Spotify: https://open.spotify.com/track/2lwwr
+ WVKdf3LR9lbbhnr6R
+URL:https://www.youtube.com/watch?v=CTAud5O7Qqk
+END:VEVENT
 END:VCALENDAR
