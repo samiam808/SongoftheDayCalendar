@@ -8435,4 +8435,24 @@ DESCRIPTION:Modest Mouse — Spotify: https://open.spotify.com/track/2lwwr
  WVKdf3LR9lbbhnr6R
 URL:https://www.youtube.com/watch?v=CTAud5O7Qqk
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DNM - Mk.gee
+DTSTART;VALUE=DATE:20241016
+DTEND;VALUE=DATE:20241017
+DTSTAMP:20250919T015711Z
+UID:7483feca-b8ce-4557-a91f-abd1b2b56d4d@songofday
+DESCRIPTION:Mk.gee — Spotify: https://open.spotify.com/track/67Oq8booO7H
+ DSL4LlmHE4s
+URL:https://www.youtube.com/watch?v=54KdEBTRpW8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Ballad of Matt & Mica - Magdalena Bay
+DTSTART;VALUE=DATE:20241017
+DTEND;VALUE=DATE:20241018
+DTSTAMP:20250919T015712Z
+UID:d6234077-325d-40b8-9e76-de1e6ede7cd9@songofday
+DESCRIPTION:Magdalena Bay — Spotify: https://open.spotify.com/track/4j9W
+ dbfKvyx7fBQb4qygYr
+URL:https://www.youtube.com/watch?v=PE6yDzNQ0Ac
+END:VEVENT
 END:VCALENDAR
