@@ -8455,4 +8455,34 @@ DESCRIPTION:Magdalena Bay — Spotify: https://open.spotify.com/track/4j9W
  dbfKvyx7fBQb4qygYr
 URL:https://www.youtube.com/watch?v=PE6yDzNQ0Ac
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WHERE IS MY HUSBAND! - RAYE
+DTSTART;VALUE=DATE:20241018
+DTEND;VALUE=DATE:20241019
+DTSTAMP:20250924T033428Z
+UID:14c86cf9-9ef3-4b80-9a92-e1e6c3998c40@songofday
+DESCRIPTION:RAYE — Spotify: https://open.spotify.com/track/55lijDD6OAjLF
+ FUHU9tcDm
+URL:https://www.youtube.com/watch?v=rK5TyISxZ_M
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Something Has to Change - The Japanese House
+DTSTART;VALUE=DATE:20241019
+DTEND;VALUE=DATE:20241020
+DTSTAMP:20250924T033428Z
+UID:0a60e5f1-93c3-4efb-9223-b873115cb99a@songofday
+DESCRIPTION:The Japanese House — Spotify: https://open.spotify.com/track
+ /2KWI43agrQEFVLM3soOmKW
+URL:https://www.youtube.com/watch?v=uoLwyWi7Z4c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Collect 200 - Collect 200
+DTSTART;VALUE=DATE:20241020
+DTEND;VALUE=DATE:20241021
+DTSTAMP:20250924T033429Z
+UID:ac095a84-e3fc-4983-855c-89334aabbbc4@songofday
+DESCRIPTION:Collect 200 — Spotify: https://open.spotify.com/track/5wMhlH
+ con8U2WNA05QMUb6
+URL:https://www.youtube.com/watch?v=-F_NdQXU8Bk
+END:VEVENT
 END:VCALENDAR
