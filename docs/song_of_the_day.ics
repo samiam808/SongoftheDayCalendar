@@ -8485,4 +8485,14 @@ DESCRIPTION:Collect 200 — Spotify: https://open.spotify.com/track/5wMhlH
  con8U2WNA05QMUb6
 URL:https://www.youtube.com/watch?v=-F_NdQXU8Bk
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:I Have Been the Moon - The Sways
+DTSTART;VALUE=DATE:20241021
+DTEND;VALUE=DATE:20241022
+DTSTAMP:20250926T015618Z
+UID:216196b1-a3c5-4f6d-b3e5-676469ef5819@songofday
+DESCRIPTION:The Sways — Spotify: https://open.spotify.com/track/4tn3jYTy
+ 9NU3YPyL1rSn9v
+URL:https://www.youtube.com/watch?v=Cr6Hfr72DBI
+END:VEVENT
 END:VCALENDAR
